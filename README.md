@@ -68,7 +68,7 @@ var request = new Dictionary<string,object>() {
             {"month","06"},
             {"area", new double [] {90,-180,-90,180}},
             {"time","00:00"}
-        }; # <- notice the multiline string.
+        };
 
 var response = await CDSAPI.Retrieve(dataset, request, filename);
 ```
